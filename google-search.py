@@ -1,6 +1,6 @@
 import requests
 from time import sleep
-keyword = "google" #str(input("Digite sua palavra-chave: ")).strip().lower()
+keyword = str(input("Digite sua palavra-chave: ")).strip().lower()
 alfabeto = {"letras": " abcdefghijklmnopqrstuvwxyz"}
 letras = [l for l in alfabeto['letras']]
 for c in range(len(letras)):
